@@ -1,0 +1,42 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore version control system files
+.git/
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore IDE/editor settings
+*.vscode/
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore environment files (security)
+.env
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore data files
+*.db
+*.sqlite3
+
+# Ignore compiled Jupyter Notebook files
+*.ipynb_checkpoints
+
+# Ignore miscellaneous
+.DS_Store
+*.swp
